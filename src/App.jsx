@@ -1,13 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
-  
   return (
-    <div className='font-bold text-red-600 text-3xl'>
-      HELLO SEUN, HELLO again
+    <div>
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
