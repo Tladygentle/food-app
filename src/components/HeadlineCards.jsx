@@ -28,7 +28,7 @@ const HeadlineCards = () => {
       <div className='relative'>
         {/* overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-            <p className='font-bold text-2xl px-2 pt-4'>  <wbr>We Deliver Deserts too</wbr></p>
+            <p className='font-bold text-2xl px-2 pt-4'>  We Deliver Deserts too</p>
             <p className='px-2'> Tasty treats </p>
             <button className=' border-white bg-white text-black mx-2 absolute bottom-4'> Order Now</button>
         </div>
