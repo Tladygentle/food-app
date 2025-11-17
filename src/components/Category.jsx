@@ -7,7 +7,7 @@ const Category = () => {
       <h1 className='text-orange-600 text-bold text-4xl text-center'> Top Rated Menu Item</h1>
 
       {/* category */}
-      <div className=' grid grid-cols-2 md:grid-cols-4 gP-6 PY-6'>
+      <div className=' grid grid-cols-2 md:grid-cols-4 gap-6 py-6'>
         {
           categories.map((item, index)=>(
             <div key={index} className='bg-gray-100 rounded-lg p-4 flex justify-between items-center'>
